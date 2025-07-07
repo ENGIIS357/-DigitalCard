@@ -1,0 +1,55 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+ body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ }
+ .card{
+ background-color: rgb(248, 240, 246);
+ text-align: center;
+ width: 300px;
+ margin: 50 auto;
+ padding: 20px;
+ border-radius: 20px;
+ box-shadow: 10 10 rgba(123, 164, 234, 0.1);
+}
+.image-profile{
+height: 200px;
+ width: 200px;
+ text-align: center;
+ margin-bottom: 20px;
+ padding: 2px;
+ margin: auto;
+ object-fit:cover ;
+ border-radius: 50%;
+ border: 20px azure black;
+  box-shadow: 0 0 20px rgba(143, 161, 239, 0.1) 
+
+ 
+}
+ h3 {
+ color: #9b59b6;
+ font-size: 1.3rem;
+ margin: 15px 0 8px;
+ padding-bottom: 5px;
+ border-bottom: 2px dashed #eaeaea;
+
+ }
+.head1{
+font-size:14px;
+}
+.skills{
+list-style: none;
+font-size:14px;
+}
+p{
+ font-size:14px;   
+}
